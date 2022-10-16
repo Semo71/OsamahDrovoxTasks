@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.15887290167865709" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.265" />
+        <entry key="app/src/main/res/layout-v26/cardview_product.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.42604166666666665" />
+        <entry key="app/src/main/res/layout/cardview_product.xml" value="0.42604166666666665" />
       </map>
     </option>
   </component>
