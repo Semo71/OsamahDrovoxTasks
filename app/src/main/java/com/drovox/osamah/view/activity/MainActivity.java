@@ -29,11 +29,14 @@ public class MainActivity extends AppCompatActivity {
         mContext = MainActivity.this;
 
         mViewModel = new ViewModelProvider(this).get(MainViewModel.class);
+
+
         mBinding.progressBar.setVisibility(View.GONE);
         mBinding.recyclerview.setVisibility(View.GONE);
         mBinding.errorTxtV.setVisibility(View.GONE);
 
         mBinding.swiperefreshlayout.setOnRefreshListener(this::getProducts);
+
         getProducts();
 
     }

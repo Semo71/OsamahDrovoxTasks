@@ -10,6 +10,9 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+/**
+ * ProductsRepository is a Singleton class that hold all the products api calls
+ */
 public class ProductsRepository {
 
     private static ProductsRepository mRepository;

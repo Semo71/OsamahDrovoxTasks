@@ -5,6 +5,9 @@ import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+/**
+ * ApiCaller is a Singleton class that init a Retrofit instance in order to use it any where
+ */
 public class ApiCaller {
 
     private static volatile ApiCaller uniqueInstance;
