@@ -1,4 +1,4 @@
-package com.drovox.osamah;
+package com.drovox.osamah.view.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,15 +8,17 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.drovox.osamah.databinding.CardviewProductBinding;
+import com.drovox.osamah.model.ItemModel;
+
 import java.util.List;
 
 
 public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyViewHolder> {
 
     private Context mContext;
-    private final List<ProductsItem> mData;
+    private final List<ItemModel> mData;
 
-    public ProductsAdapter(List<ProductsItem> data) {
+    public ProductsAdapter(List<ItemModel> data) {
         mData = data;
     }
 
@@ -30,7 +32,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.MyView
 
     @Override
     public void onBindViewHolder(@NonNull final MyViewHolder holder, final int position) {
-        ProductsItem model = mData.get(position);
+        ItemModel model = mData.get(position);
         Glide.with(mContext).load(model.getImages().get(0)).into(holder.mBinding.productImgV);
         holder.mBinding.titleTxtV.setText(model.getTitle());
         holder.mBinding.priceTxtV.setText(model.getPrice() + " SAR");

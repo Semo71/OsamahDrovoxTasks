@@ -1,16 +1,15 @@
-package com.drovox.osamah;
+package com.drovox.osamah.view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import android.app.AlertDialog;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
+import com.drovox.osamah.viewmodel.MainViewModel;
+import com.drovox.osamah.view.adapter.ProductsAdapter;
 import com.drovox.osamah.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.drovox.osamah;
+package com.drovox.osamah.model;
 
 import java.util.List;
 import com.google.gson.annotations.SerializedName;
@@ -15,7 +15,7 @@ public class ProductModel{
 	private int skip;
 
 	@SerializedName("products")
-	private List<ProductsItem> products;
+	private List<ItemModel> products;
 
 	public int getTotal(){
 		return total;
@@ -29,7 +29,7 @@ public class ProductModel{
 		return skip;
 	}
 
-	public List<ProductsItem> getProducts(){
+	public List<ItemModel> getProducts(){
 		return products;
 	}
 }

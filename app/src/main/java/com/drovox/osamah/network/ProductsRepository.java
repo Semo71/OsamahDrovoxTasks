@@ -1,9 +1,10 @@
-package com.drovox.osamah;
-
-import android.util.Log;
+package com.drovox.osamah.network;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.MutableLiveData;
+
+import com.drovox.osamah.model.ApiModel;
+import com.drovox.osamah.model.ProductModel;
 
 import retrofit2.Call;
 import retrofit2.Callback;

@@ -1,5 +1,7 @@
-package com.drovox.osamah;
+package com.drovox.osamah.network;
 
+
+import com.drovox.osamah.model.ProductModel;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

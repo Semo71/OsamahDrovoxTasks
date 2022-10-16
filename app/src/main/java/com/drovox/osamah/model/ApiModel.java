@@ -1,4 +1,4 @@
-package com.drovox.osamah;
+package com.drovox.osamah.model;
 
 import com.google.gson.annotations.SerializedName;
 
