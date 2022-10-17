@@ -1,16 +1,5 @@
-# Introduction 
 
-# Getting Started
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This project was created based on Drovox company request to determine if you I the skill set that they are looking for.
 
-# Build and Test
-
-# Contribute
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+For Mr. Muhannad
+You shall find the answers to task 1 and 2 in this path   app/src/main/java/com/drovox/osamah/tasks
