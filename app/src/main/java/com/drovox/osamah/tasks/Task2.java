@@ -6,7 +6,7 @@ import java.util.Map.Entry;
 public class Task2 {
 
     public static int getFirstNonRepeatingIndex(String input) {
-        Map<Character, Integer> hashMap = new HashMap<>();
+        Map<Character, Integer> hashMap = new LinkedHashMap<>();
         for (int i = 0; i < input.length(); i++) {
 
             //In case user enters uppercase
